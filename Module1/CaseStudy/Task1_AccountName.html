@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account Name</title>
+    <style>
+        body {
+            background-image: url(https://www.bsmc.net.au/wp-content/uploads/beach.jpg);
+            background-size: cover;
+        }
+    </style>
+<body>
+<h1 style="color: yellow; margin-left: 90px">FURAMA RESORT</h1>
+<form>
+    <table class="table1">
+        <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" id="name"></td>
+        </tr>
+        <tr>
+            <td>ID Number:</td>
+            <td><input type="text" name="idNumber" id="idNumber"></td>
+        </tr>
+        <tr>
+            <td>Date of birth:</td>
+            <td><input type="date" name="birthday" id="birthday"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td><input type="text" name="address" id="address"></td>
+        </tr>
+        <tr>
+            <td>Type of Customer:</td>
+            <td>
+                <select id="customer_special">
+                    <option>Diamond</option>
+                    <option>Platinum</option>
+                    <option>Gold</option>
+                    <option>Silver</option>
+                    <option>Member</option>
+                </select>
+            </td>
+        </tr>
+        <td>Discount:</td>
+        <td><input type="text" name="discount" id="discount" placeholder="If not please leave it blank"></td>
+        </tr>
+        <tr>
+            <td>Quantity included:</td>
+            <td><input type="number" name="number" id="number"></td>
+        </tr>
+        <tr>
+            <td>Number of days rent:</td>
+            <td><input type="text" name="rent_day" id="rent_day"></td>
+        </tr>
+        <tr>
+            <td>Service type:</td>
+            <td>
+                <select id="service_special">
+                    <option>--Choose--</option>
+                    <option value="Villa">Villa 500$/day</option>
+                    <option value="House">House 300$/day</option>
+                    <option value="Room">Room 100$/day</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Type of room:</td>
+            <td>
+                <select id="room_special">
+                    <option>--Choose--</option>
+                    <option>Vip</option>
+                    <option>Business</option>
+                    <option>Normal</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="btn">
+                <input type="button" name="submit" value="Submit" onclick="myFunction()">
+                <input type="reset" name="reset" value="Reset">
+            </td>
+        </tr>
+    </table>
+    <table class="table2">
+        <tr>
+            <th colspan="2"><h2>Confirm information</h2></th>
+        </tr>
+        <tr>
+            <td>Name:</td>
+            <td id="confirm_name"></td>
+        </tr>
+        <tr>
+            <td>ID Number:</td>
+            <td id="confirm_IDNumber"></td>
+        </tr>
+        <tr>
+            <td>Date of birth:</td>
+            <td id="confirm_birthday"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td id="confirm_email"></td>
+        </tr>
+        <tr>
+            <td>Address:</td>
+            <td id="confirm_address"></td>
+        </tr>
+        <tr>
+            <td>Type of Customer:</td>
+            <td id="confirm_customer_special"></td>
+        </tr>
+        <tr>
+            <td>Discount:</td>
+            <td id="confirm_discount"></td>
+        </tr>
+        <tr>
+            <td>Quantity included:</td>
+            <td id="confirm_number"></td>
+        </tr>
+        <tr>
+            <td>Number of days rent:</td>
+            <td id="confirm_rent_day"></td>
+        </tr>
+        <tr>
+            <td>Service type:</td>
+            <td id="confirm_service_special"></td>
+        </tr>
+        <tr>
+            <td>Type of room:</td>
+            <td id="confirm_room_special"></td>
+        </tr>
+        <tr>
+            <td>Have to pay:</td>
+            <td id="pay"></td>
+        </tr>
+    </table>
+</form>
+<script src="Task1_AccountName.js"></script>
+</body>
+</html>

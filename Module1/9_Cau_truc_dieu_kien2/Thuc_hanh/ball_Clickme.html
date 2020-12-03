@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ball Click me</title>
+</head>
+<body>
+<form>
+    <img id="myImage" src="https://tse1.mm.bing.net/th?id=OIP.t8z6K7RTZGuCu9aYb5YqzQHaHn&pid=Api&P=0&w=300&h=300" />
+    <p>Click button below to move the image to right</p>
+    <input type="button" value="Click Me" />
+    <input type="button" value="Click Me" onclick="moveRight();" />
+</form>
+<script>
+    let imgObj = null;
+    imgObj = document.getElementById('myImage');
+    window.onload = init;
+    function init() {
+        imgObj = document.getElementById('myImage');
+        imgObj.style.position = 'relative';
+        imgObj.style.left = '0px';
+    }
+    function moveRight() {
+        imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+    }
+</script>
+</body>
+</html>

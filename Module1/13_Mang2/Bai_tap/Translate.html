@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translate</title>
+</head>
+<body>
+<input type="text" id="dauVao"><input type="button" onclick="translates()" value="translate">
+<p id="dauRa"></p>
+<script>
+    let arr1 = ["số","chó","cửa sổ","nhà","quả cam"];
+    let arr2 = ["数","犬","窓","家","ミカン"];
+    let dauVao = document.getElementById("dauVao");
+    let dauRa = document.getElementById("dauRa");
+
+    function translates() {
+        for (let i = 0; i < arr1.length; i++){
+            for (let j = 0; j < arr2.length; j++){
+                if (arr1[i] === dauVao.value && i === j){
+                    dauRa.innerText = arr2[j];
+                    break;
+                }else if (arr2[j] === dauVao.value && j === i){
+                    dauRa.innerText = arr1[i];
+                    break;
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
