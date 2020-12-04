@@ -94,10 +94,13 @@ so_luong int
 );
 
 create table hopdong (
-id_hopdong int primary key ,
+id_hopdong int primary key auto_increment,
 id_nhanvien int,
+foreign key (id_nhanvien) references nhanvien (id_nhanvien),
 id_khachhang int,
+foreign key (id_khachhang) references khachhang (id_khachhang),
 id_dichvu int,
+foreign key (id_dichvu) references dichvu (id_dichvu),
 ngaylam_hopdong date,
 ngayketthuc_hopdong date,
 tien_datcoc int,
