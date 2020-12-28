@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="caseStudy_WBE_JSP_Servlet:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/caseStudy_WBE_JSP_Servlet_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="caseStudy_WBE_JSP_Servlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="caseStudy_WBE_JSP_Servlet" />
+          <element id="library" level="application" name="jquery-3.2.1.slim" />
+          <element id="library" level="application" name="font-awesome" />
+          <element id="library" level="application" name="bootstrap" />
+          <element id="library" level="application" name="popper" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.17" />
+          <element id="library" level="project" name="servlet-api-2.5-6.0.2" />
+          <element id="library" level="project" name="jsp-api-2.1-6.0.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
