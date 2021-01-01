@@ -210,10 +210,10 @@
 <%--<script src="../datatables/js/dataTables.bootstrap4.min.js"></script>--%>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<%--<script>--%>
-<%--    function getIdCustomer(id) {--%>
-<%--        $('#idCustomer').val(id);--%>
-<%--    }--%>
+<script>
+    function getIdCustomer(id) {
+        $('#idCustomer').val(id);
+    }
 <%--    $(document).ready(function () {--%>
 <%--        $('#tableCustomer').dataTable({--%>
 <%--            "dom": 'lrtip',--%>
@@ -221,5 +221,5 @@
 <%--            "pageLength": 5--%>
 <%--        });--%>
 <%--    });--%>
-<%--</script>--%>
+</script>
 </html>

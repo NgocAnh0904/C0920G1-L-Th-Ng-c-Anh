@@ -92,7 +92,7 @@ public class CustomerRepositoryImpl implements CustomerRepository {
         try(Connection connection = getConnection();
             PreparedStatement statement = connection.prepareStatement(DELETE_CUSTOMER_SQL)) {
 //            statement.setInt( 1,Integer.parseInt(id.substring(3)));
-//            statement.setString(1,customer.getIdCustomer().substring(3));
+            statement.setString(1,id.substring(3));
             check = statement.executeUpdate() > 0;
         }finally {
             getConnection().close();

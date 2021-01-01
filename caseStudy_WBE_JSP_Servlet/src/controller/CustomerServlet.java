@@ -43,8 +43,6 @@ public class CustomerServlet extends HttpServlet {
                 case "edit":
                     editCustomer(request,response);
                     break;
-                case "delete":
-                    break;
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -203,7 +201,7 @@ public class CustomerServlet extends HttpServlet {
     }
 
     private void deleteCustomer(HttpServletRequest request, HttpServletResponse response) throws SQLException, IOException, ServletException {
-        String idCustomer = request.getParameter("customer_id");
+        String idCustomer = request.getParameter("customerId");
         customerService.deleteCustomer(idCustomer);
         request.setAttribute("messageConfig","deleted successfully!");
 //        response.sendRedirect("/customers");

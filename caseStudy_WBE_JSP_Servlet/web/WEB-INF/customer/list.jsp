@@ -10,13 +10,7 @@
 <html>
 <head>
     <title>Customer</title>
-    <%--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"--%>
-    <%--          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">--%>
-<%--    <link rel="stylesheet" href="../bootstrap413/css/bootstrap.min.css">--%>
-<%--    <link rel="stylesheet" href="../datatables/css/dataTables.bootstrap4.min.css">--%>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<%--    <link rel="stylesheet" type="text/css" href="../bootstrap413/css/bootstrap.min.css">--%>
-<%--    <link rel="stylesheet" type="text/css" href="../datatables/css/dataTables.bootstrap4.min.css">--%>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -78,7 +72,7 @@
     <div id="head_top">
         <a href="#">
             <img src="https://dogily.vn/wp-content/uploads/2019/09/Chu-cho-Anuko-noi-tieng-tren-mang-xa-hoi.jpg" alt="" height="120px" width="120px">
-<%--            <img src="/customer/cho.jpg" alt="abc">--%>
+
         </a>
         <p>NgocAnh0904</p>
     </div>
@@ -193,33 +187,11 @@
         </div>
     </div>
 </div>
-
-<%--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"--%>
-<%--          integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>--%>
-<%--  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"--%>
-<%--          integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>--%>
-<%--  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"--%>
-<%--          integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>--%>
-<%--<script src="../jquery/jquery-3.5.1.min.js"></script>--%>
-<%--<script src="../datatables/js/jquery.dataTables.min.js"></script>--%>
-<%--<script src="../datatables/js/dataTables.bootstrap4.min.js"></script>--%>
-<%--<script src="../bootstrap413/js/bootstrap.js"></script>--%>
-<%--<script src="../jquery/popper.min.js"></script>--%>
-<%--<script src="../jquery/jquery-3.5.1.min.js"></script>--%>
-<%--<script src="../datatables/js/jquery.dataTables.min.js"></script>--%>
-<%--<script src="../datatables/js/dataTables.bootstrap4.min.js"></script>--%>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-<%--<script>--%>
-<%--    function getIdCustomer(id) {--%>
-<%--        $('#idCustomer').val(id);--%>
-<%--    }--%>
-<%--    $(document).ready(function () {--%>
-<%--        $('#tableCustomer').dataTable({--%>
-<%--            "dom": 'lrtip',--%>
-<%--            "lengthChange": false,--%>
-<%--            "pageLength": 5--%>
-<%--        });--%>
-<%--    });--%>
-<%--</script>--%>
+<script>
+    function getIdCustomer(id) {
+        $('#idCustomer').val(id);
+    }
+</script>
 </html>
