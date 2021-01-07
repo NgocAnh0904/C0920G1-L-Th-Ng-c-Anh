@@ -11,5 +11,8 @@ public class GreetingController {
     public String greeting(@RequestParam String name, Model modle){
         modle.addAttribute("name", name);
         return "index";
+
+
+
     }
 }
