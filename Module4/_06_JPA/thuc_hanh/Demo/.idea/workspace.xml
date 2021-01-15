@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f08956fb-12fd-44f3-ad96-53f904f58614" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../customer-management/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/codegym/cms/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer-management/src/main/java/com/codegym/cms/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Module3/NaWeb/Test_Module3.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Module3/NaWeb/Test_Module3.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_04_View_thymeleaf/thuc_hanh/customer/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_04_View_thymeleaf/thuc_hanh/customer/.idea/gradle.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mu8gpUat1FLngVvweGVaCLRb49" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f08956fb-12fd-44f3-ad96-53f904f58614" name="Default Changelist" comment="" />
+      <created>1610332229542</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610332229542</updated>
+      <workItem from="1610332236077" duration="207000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="83" key="FileChooserDialogImpl" timestamp="1610332405563">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="83" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1610332405563" />
+    <state x="91" y="40" key="new project wizard" timestamp="1610332441027">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="40" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1610332441027" />
+  </component>
+</project>
