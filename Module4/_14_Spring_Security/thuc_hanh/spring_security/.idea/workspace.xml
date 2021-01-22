@@ -2,31 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c9eb86-9d19-46e4-9b3f-861a00464752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/src/main/webapp/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/java/com/codegym/demo/controller/DashBoardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/java/com/codegym/demo/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/java/com/codegym/demo/request/Credential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/java/com/codegym/demo/response/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/resources/I18N/message.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/resources/I18N/message_haw.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/resources/I18N/message_ja.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/resources/templates/views/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_13_I18N/thuc_hanh/global_blog/src/main/resources/templates/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/java/com/codegym/demo/MvcWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/java/com/codegym/demo/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/java/com/codegym/demo/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/java/com/codegym/demo/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/java/com/codegym/demo/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/resources/views/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/resources/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UseSpringSecurity/src/main/resources/views/user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/build/libs/thuc_hanh-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_12_Ajax_Jquery/thuc_hanh/build/libs/thuc_hanh-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/accessDenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/dba.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring_security" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UseSpringSecurity" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -74,6 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611126770681</updated>
       <workItem from="1611126772186" duration="55000" />
+      <workItem from="1611211859556" duration="122000" />
     </task>
     <servers />
   </component>
@@ -85,9 +70,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1611126800041" />
-    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1611126825273">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1611211978936">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611126825273" />
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611211978936" />
   </component>
 </project>

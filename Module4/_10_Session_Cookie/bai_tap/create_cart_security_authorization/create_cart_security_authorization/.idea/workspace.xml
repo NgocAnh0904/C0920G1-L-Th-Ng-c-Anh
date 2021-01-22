@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3bb5f3fd-2de6-4ba8-b1f0-8cb15ed08794" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/CustomSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/SecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/controller/SecurityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/accessDenied.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/dba.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../_14_Spring_Security/thuc_hanh/spring_security/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../_14_Spring_Security/thuc_hanh/spring_security/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="1nPDqsoZZxWzF8UYIWtLjTR8cI2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/create_cart" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bb5f3fd-2de6-4ba8-b1f0-8cb15ed08794" name="Default Changelist" comment="" />
+      <created>1611283025509</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611283025509</updated>
+      <workItem from="1611283027622" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611283041075">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1611283041075" />
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1611283058495">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611283058495" />
+  </component>
+</project>
