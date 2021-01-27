@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bbb3da98-805f-4e85-a1e7-c9da9b49a44d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/back_group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/customer/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../_08_Validation/bai_tap/demo/src/main/java/com/codegym/demo/controller/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_08_Validation/bai_tap/spring_mvc/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../_08_Validation/bai_tap/spring_mvc/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../caseStudy_WBE_JSP_Servlet/out/artifacts/caseStudy_WBE_JSP_Servlet_war_exploded/WEB-INF/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../caseStudy_WBE_JSP_Servlet/out/artifacts/caseStudy_WBE_JSP_Servlet_war_exploded/WEB-INF/customer/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1naZWtKXAC1bSMdYQmyQ1iwvYUI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bbb3da98-805f-4e85-a1e7-c9da9b49a44d" name="Default Changelist" comment="" />
+      <created>1611630196434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611630196434</updated>
+      <workItem from="1611630198137" duration="117000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1611630205300">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1611630205300" />
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1611630313748">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1611630313748" />
+  </component>
+</project>
