@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Question</title>
+</head>
+<body>
+<center>
+    <h2>
+        Add New Question
+    </h2>
+</center>
+<div align="center">
+    <form method="post" action="/question/create" th:object="${question}">
+        <table border="1" cellpadding="5">
+            <tr>
+                <td>ID</td>
+                <td><input type="text" th:field="*{id}">
+                    <a style="color: red" th:if="${#fields.hasErrors('id')}" th:errors="*{id}"></a> </td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" th:field="*{title}"></td>
+            </tr>
+            <tr>
+                <td>Question Type</td>
+                <select th:field="*{questionType}">
+                    <option th:each="questionType: ${questionTypes}" th:value="${questionType.id}" th:text="${questionType.name}"></option>
+                </select>
+            </tr>
+            <tr>
+                <td>Date Create</td>
+                <td><input type="date" th:field="*{date_create}">
+                    <a style="color: red" th:if="${#fields.hasErrors('date_create')}" th:errors="*{date_create}"></a> </td>
+            </tr>
+            <tr>
+                <td>User Create</td>
+                <td><input type="text" th:field="*{user_create}"></td>
+            </tr>
+            <tr>
+                <td>User Feedback</td>
+                <td><input type="text" th:field="*{user_feedback}"></td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td><input type="text" th:field="*{status}"></td>
+            </tr>
+        </table>
+        <input type="submit" value="Create">
+    </form>
+    <h2><a href="/question//list">
+        Back to list question
+    </a></h2>
+</div>
+</body>
+</html>

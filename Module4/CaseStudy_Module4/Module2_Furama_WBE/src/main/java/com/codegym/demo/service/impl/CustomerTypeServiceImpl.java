@@ -37,4 +37,5 @@ public class CustomerTypeServiceImpl implements CustomerTypeService {
     public CustomerType findById(String id) {
         return customerTypeRepository.findById(id).orElse(null);
     }
+
 }

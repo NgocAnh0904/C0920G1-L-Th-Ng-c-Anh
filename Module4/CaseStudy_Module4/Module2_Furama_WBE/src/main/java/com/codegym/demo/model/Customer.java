@@ -12,7 +12,7 @@ import java.util.List;
 @Table(name = "customer")
 public class Customer {
     @Id
-//    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Pattern(regexp = "^KH-\\d{4}$", message = "Id không đúng định dang")
     private String id;
     @NotEmpty
@@ -42,9 +42,6 @@ public class Customer {
     }
     @OneToMany(mappedBy = "customer")
     private List<Contract> contracts;
-
-
-
 
     public String getId() {
         return id;

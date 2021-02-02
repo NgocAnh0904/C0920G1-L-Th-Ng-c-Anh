@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Question</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+        #head {
+            width: 100%;
+            height: 160px;
+            background-color: #555555;
+            position: fixed;
+            z-index: 9;
+        }
+
+        #head_top {
+            width: 100%;
+            height: 100px;
+            background-color: #CDCDCD;
+            position: absolute;
+        }
+
+        #head_top a {
+            margin-top: 20px;
+            float: left;
+        }
+
+        #head_top p {
+            color: green;
+            margin-top: 30px;
+            float: right;
+            margin-right: 30px;
+        }
+
+        #headbottom {
+            width: 100%;
+            position: absolute;
+            top: 100px;
+        }
+
+        #content {
+            position: relative;
+            top: 160px;
+        }
+
+        #footer {
+            text-align: center;
+            padding-top: 40px;
+            background-color: burlywood;
+            width: 100%;
+            height: 100px;
+            position: relative;
+            top: 160px;
+        }
+
+        #footer label {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="head">
+    <div id="head_top">
+        <a href="#">
+            <img src="https://dogily.vn/wp-content/uploads/2019/09/Chu-cho-Anuko-noi-tieng-tren-mang-xa-hoi.jpg" alt=""
+                 height="120px" width="120px">
+
+        </a>
+        <p>NgocAnh0904</p>
+    </div>
+    <div id="headbottom">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="/customer/home"><h4 style="color: blueviolet">Home</h4></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul id="abc" class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/employees">Employee<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/customers">Customer<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/services">Service<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/contracts">Contract<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0" method="get">
+                    <input type="hidden" name="action" value="search">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                           name="customerName">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+</div>
+<div id="content">
+    <center>
+        <h1>Customer Manager</h1>
+    </center>
+    <a class="btn btn-success" role="button" th:href="@{/question/create}">Create</a>
+    <table class="table table-striped" id="tableQuestion">
+        <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Question Type</th>
+            <th scope="col">Date Create</th>
+            <th scope="col">User Create</th>
+            <th scope="col">User Feedback</th>
+            <th scope="col">Status</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+
+        </thead>
+        <tbody>
+        <tr th:each="questions: ${questionList}">
+            <td th:text="${questions.id}"></td>
+            <td th:text="${questions.title}"></td>
+            <td th:text="${questions.questionType.name}"></td>
+            <td th:text="${questions.date_create}"></td>
+            <td th:text="${questions.user_create}"></td>
+            <td th:text="${questions.user_feedback}"></td>
+            <td th:text="${questions.status}"></td>
+            <td>
+                <a class="btn btn-primary" role="button" th:href="@{/edit/{id}(id=${questions.id})}">Edit</a>
+            </td>
+            <td>
+                <button class="btn btn-danger" role="button" data-toggle="modal"
+                        th:attr="data-target='#exampleModal' + ${questions.id}">Delete
+                </button>
+            </td>
+            <!-- Modal -->
+            <div class="modal fade" th:id="exampleModal+ ${questions.id}" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <a type="button" class="btn btn-danger"
+                               th:href="@{/delete/{id}(id=${questions.id})}">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </tr>
+
+        </tbody>
+    </table>
+    <div class="d-flex justify-content-end">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" th:href="@{'/question'(page=${questionList.number - 1})}"
+                                         th:if="${questionList.hasPrevious()}">Previous</a></li>
+                <li class="page-item">
+                    <span th:text="${questionList.number + 1}"></span>/
+                    <span th:text="${questionList.totalPages}"></span>
+                </li>
+                <li class="page-item"><a class="page-link" th:href="@{'/question'(page=${questionList.number + 1})}"
+                                         th:if="${questionList.hasNext()}">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+<script>
+    function getIdQuestion(id) {
+        $('#idQuestion').val(id);
+    }
+</script>
+<body>
+</body>
+</html>

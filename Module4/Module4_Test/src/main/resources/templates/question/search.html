@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="searchTable">
+    <table cellspacing="2"  class="table table-hover" >
+        <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Title</th>
+            <th scope="col">Question Type</th>
+            <th scope="col">Date Create</th>
+            <th scope="col">User Create</th>
+            <th scope="col">User Feedback</th>
+            <th scope="col">Status</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="questions : ${questionList}">
+            <td th:text="${questions.id}"></td>
+            <td th:text="${questions.title}"></td>
+            <td th:text="${questions.questionType}"></td>
+            <td th:text="${questions.date_create}"></td>
+            <td th:text="${questions.user_create}"></td>
+            <td th:text="${questions.user_feedback}"></td>
+            <td th:text="${questions.status}"></td>
+            <td th:text="${questions.questionType.name}"></td>
+
+            <td scope="col">
+                <button class="btn btn-outline-info btn-lg btnModalView" id="btnModalView">View</button>
+                <input type="hidden" th:value="${questions.id}">
+
+                <a th:href="@{/question/{id}/edit(id=${questions.id})}" class="btn btn-outline-dark">
+                    Edit
+                </a>
+                <button type="button" class="btn btn-danger" id="btnModalDelete"
+                        th:onclick="'javascript:showDelete(\''+ ${questions.id} + '\');'">
+                    Delete
+                </button>
+            </td>
+        </tr>
+        </tbody>
+
+    </table>
+</div>
+<script>
+    $(document).ready(function () {
+        $("#btnModalCreate").click(function () {
+            $.ajax({
+                type: "GET",
+                url: "question/create",
+                dataType: "HTML",
+                success: function (data) {
+                    $(".modal-body").html(data);
+                    $("#modelId").modal('show');
+                }
+            });
+        });
+    });
+</script>
+<script>
+    function showDelete(id) {
+        $.ajax({
+            type: "GET",
+            url: "question/delete/"+id,
+            dataType: "HTML",
+            success: function (data) {
+                $(".modal-body").html(data);
+                $("#modelId").modal('show');
+            }
+        })
+    }
+    function actionDelete(id){
+        $.ajax({
+            type: "POST",
+            url: "question/actionDelete/" + id,
+            dataType: "HTML",
+            success: function (data) {
+                var messageDelete = "Delete!";
+                $("#modelId").modal('hide');
+                $("#searchTable").html(data);
+                $(".modal-body").html(messageDelete);
+                $("#modelId").modal('show');
+            }
+        })
+    }
+</script>
+<script>
+    $(document).ready(function () {
+        $("#btnModalView").click(function () {
+            console.log($(this).next());
+            $.ajax({
+                type: "GET",
+                url: "question/view/" + $(this).next().val(),
+                dataType: "HTML",
+                success: function (data) {
+                    $(".modal-body").html(data);
+                    $("#modelId").modal('show');
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>

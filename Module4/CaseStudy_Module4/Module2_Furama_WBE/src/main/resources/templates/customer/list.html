@@ -7,17 +7,6 @@
 <title>Customer</title>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 <style>
     #head {
         width: 100%;
@@ -84,7 +73,7 @@
     </div>
     <div id="headbottom">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><h4 style="color: blueviolet">Home</h4></a>
+            <a class="navbar-brand" href="/customer/home"><h4 style="color: blueviolet">Home</h4></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -118,10 +107,6 @@
 <div id="content">
     <center>
         <h1>Customer Manager</h1>
-        <h2>
-            <a>Add New Customer</a>
-            <!--            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modelCreate">Add New Customer</button>&#45;&#45;%>-->
-        </h2>
     </center>
     <a class="btn btn-success" role="button" th:href="@{/customer/create}">Create</a>
     <table class="table table-striped" id="tableCustomer">
@@ -129,7 +114,7 @@
         <tr>
             <th scope="col">ID</th>
             <th scope="col">Name</th>
-            <th scope="col">Birthday</th>d
+            <th scope="col">Birthday</th>
             <th scope="col">Gender</th>
             <th scope="col">ID-Car</th>
             <th scope="col">Phone</th>
@@ -154,8 +139,29 @@
             <td>
                 <a class="btn btn-primary" role="button" th:href="@{/edit/{id}(id=${customers.id})}">Edit</a>
             </td>
-            <td><a class="btn btn-danger" role="button" th:href="@{/delete/{id}(id=${customers.id})}">Delete</a></td>
+            <td><button class="btn btn-danger" role="button" data-toggle="modal"  th:attr="data-target='#exampleModal' + ${customers.id}"  >Delete</button></td>
+            <!-- Modal -->
+            <div class="modal fade" th:id="exampleModal+ ${customers.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <a type="button" class="btn btn-danger"  th:href="@{/delete/{id}(id=${customers.id})}">Delete</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </tr>
+
         </tbody>
     </table>
     <div class="d-flex justify-content-end">
@@ -174,31 +180,7 @@
     </div>
   </div>
 
-<!-- Modal -->
-<div class="modal fade" id="modelDeleteCustomer" tabindex="-1" role="dialog" aria-labelledby="modelTitleId"
-     aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Delete Customer</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <form method="get" action="/customers">
-                <input type="hidden" name="action" value="delete">
-                <input type="hidden" name="customerId" id="idCustomer">
-                <div class="modal-body">
-                    Are You Sure?
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">cancel</button>
-                    <button type="submit" class="btn btn-primary">OK!</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 <script>

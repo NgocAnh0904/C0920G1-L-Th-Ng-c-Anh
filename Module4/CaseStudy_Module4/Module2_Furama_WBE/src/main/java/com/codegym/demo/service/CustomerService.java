@@ -5,7 +5,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-@Service
 public interface CustomerService {
     Page<Customer>  findCustomer(Pageable pageable);
 
@@ -14,6 +13,5 @@ public interface CustomerService {
     void save(Customer customer);
     void update(Customer customer);
     void delete(String id);
-
-
+    Page<Customer> findAllByCustomer_nameContaining(Pageable pageable, String searchName);
 }

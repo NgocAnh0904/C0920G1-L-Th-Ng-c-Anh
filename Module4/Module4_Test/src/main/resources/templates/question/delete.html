@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center>
+    <h2>
+        <a href="/customer">List All Question</a>
+    </h2>
+</center>
+<div align="center">
+    <form method="post" action="/create" th:object="${queston}">
+        <input type="hidden" name="action" value="edit">
+        <table border="1" cellpadding="5">
+            <caption>
+                <h2>
+                    Delete Question
+                </h2>
+            </caption>
+            <tr>
+                <td>ID</td>
+                <td><input type="text" th:field="*{id}">
+                    <a style="color: red" th:if="${#fields.hasErrors('id')}" th:errors="*{id}"></a> </td>
+            </tr>
+            <tr>
+                <td>Title</td>
+                <td><input type="text" th:field="*{title}"></td>
+            </tr>
+            <tr>
+                <td>Question Type</td>
+                <select th:field="*{questionType}">
+                    <option th:each="questionType: ${questionTypes}" th:value="${questionType.id}" th:text="${questionType.name}"></option>
+                </select>
+            </tr>
+            <tr>
+                <td>Date Create</td>
+                <td><input type="date" th:field="*{date_create}">
+                    <a style="color: red" th:if="${#fields.hasErrors('date_create')}" th:errors="*{date_create}"></a> </td>
+            </tr>
+            <tr>
+                <td>User Create</td>
+                <td><input type="text" th:field="*{user_create}"></td>
+            </tr>
+            <tr>
+                <td>User Feedback</td>
+                <td><input type="text" th:field="*{user_feedback}"></td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td><input type="text" th:field="*{status}"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" value="Save"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

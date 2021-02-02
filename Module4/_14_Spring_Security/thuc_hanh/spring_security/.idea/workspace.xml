@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47c9eb86-9d19-46e4-9b3f-861a00464752" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/CustomSuccessHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/configuration/SecurityWebApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/java/com/codegym/demo/controller/SecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/accessDenied.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/dba.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/templates/welcome.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_15_Authorization/thuc_hanh/roleBased_authorization/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/service/SpringSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/service/impl/MyUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/static/img/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/admin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/java/com/codegym/demo/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/back_group.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/back_group.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../CaseStudy_Module4/Module2_Furama_WBE/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../UseSpringSecurity" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -59,6 +68,10 @@
       <updated>1611126770681</updated>
       <workItem from="1611126772186" duration="55000" />
       <workItem from="1611211859556" duration="122000" />
+      <workItem from="1611714285997" duration="162000" />
+      <workItem from="1611721849882" duration="192000" />
+      <workItem from="1611722259370" duration="2557000" />
+      <workItem from="1611732160704" duration="55000" />
     </task>
     <servers />
   </component>
