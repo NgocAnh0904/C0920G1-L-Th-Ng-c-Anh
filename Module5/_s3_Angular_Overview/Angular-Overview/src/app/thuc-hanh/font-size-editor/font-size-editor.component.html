@@ -1,0 +1,12 @@
+<p>font-size-editor works!</p>
+
+<div>
+  <label>Enter font size (px):</label>
+  <input type="number" [value]="fontSize" (change)="onChange($any($event.target).value)" >
+<!--  <input type="number" [value]="fontSize" (change)="onChange($event.target)" > .value ben ts-->
+  <input type="number" [(ngModel)] = "fontSize">
+
+<p class="output" [style.fontSize.px]="fontSize">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cumque nostrum quibusdam. Inventore quibusdam debitis, tempore error voluptatem explicabo ipsum?
+</p>
+

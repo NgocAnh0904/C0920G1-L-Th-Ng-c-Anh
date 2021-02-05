@@ -1,0 +1,14 @@
+<p>calculator works!</p>
+<p>
+  Number one:
+<!--  <input type="number" [value]="number1"/>-->
+  <input type="number" [(ngModel)]="number1"/>
+</p>
+<p>
+  Number two:
+  <input type="number" (change)="getValueNumber2($event.target.value)"/>
+</p>
+<p>
+  <button (click)="sum2Num()">Sum</button>
+</p>
+<h2>{{result}}</h2>

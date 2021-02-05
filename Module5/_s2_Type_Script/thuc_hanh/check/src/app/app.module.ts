@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
+  // báo cho Angular biết đây là một class module trong Angular
   declarations: [
     AppComponent
   ],

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e263430f-868c-48c3-8ba4-01e094816acd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../_s1_UX_UI/thuc_hanh/DemoProject/my-project-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../../_s1_UX_UI/thuc_hanh/DemoProject/my-project-demo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/check/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/typescript-demo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/environments/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../_s2_TypeScript/thuc_hanh/variable/tslint.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1o0RWLpU6BRTn4rqmOQMq17pjyz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/typescript" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e263430f-868c-48c3-8ba4-01e094816acd" name="Default Changelist" comment="" />
+      <created>1612421551820</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612421551820</updated>
+      <workItem from="1612421554508" duration="10000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/typescript/index.js" />
+        <option value="$PROJECT_DIR$/typescript/call_api_promise.js" />
+        <option value="$PROJECT_DIR$/typescript/call_api.js" />
+        <option value="$PROJECT_DIR$/typescript/test_data_type.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1612421562025">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1612421562025" />
+  </component>
+</project>

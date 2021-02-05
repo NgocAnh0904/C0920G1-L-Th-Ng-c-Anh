@@ -1,0 +1,8 @@
+<p>color-angular works!</p>
+<div>
+<label>Choose Color:</label>
+<input [value]="background" type="color" (change)="onChange($any($event.target).value)">
+</div>
+
+<p>Output:</p>
+<div class="color-preview" [style.background]="background"></div>
