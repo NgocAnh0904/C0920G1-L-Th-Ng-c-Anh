@@ -1,0 +1,89 @@
+{
+  "employees": [
+    {
+      "fullName": "The Anh",
+      "position": "Truong bo phan An Ninh",
+      "academical": "Dai Hoc",
+      "department": "Mot thanh vien",
+      "dateOfBirth": "1995-04-09",
+      "iNumber": "000000001",
+      "salary": "67",
+      "email": "lethingocanh@gmail.com",
+      "phoneNumber": "0909090099",
+      "address": "Khong ro",
+      "id": 3
+    },
+    {
+      "fullName": "Chien",
+      "position": "ddd",
+      "academical": "dddd",
+      "department": "ddddd",
+      "dateOfBirth": "0055-03-04",
+      "iNumber": "333333333",
+      "salary": "44",
+      "email": "lethingoc@gmail.com",
+      "phoneNumber": "0910999993",
+      "address": "dddd",
+      "id": 4
+    },
+    {
+      "fullName": "ngoc anh",
+      "position": "ddd",
+      "academical": "dddd",
+      "department": "ddddd",
+      "dateOfBirth": "0055-03-04",
+      "iNumber": "33333",
+      "salary": "3jj",
+      "email": "kee@fff",
+      "phoneNumber": "33333",
+      "address": "dddd",
+      "id": 5
+    },
+    {
+      "fullName": "ffff",
+      "position": "",
+      "academical": "",
+      "department": "",
+      "dateOfBirth": "",
+      "iNumber": "",
+      "salary": "",
+      "email": "",
+      "phoneNumber": "",
+      "address": "",
+      "id": 6
+    },
+    {
+      "fullName": "hello word",
+      "position": "Giam doc",
+      "academical": "Dai hoc",
+      "department": "mot thanh vien",
+      "dateOfBirth": "2222-09-08",
+      "iNumber": "099449444",
+      "salary": "5000000",
+      "email": "lethingocanh@gmail.com",
+      "phoneNumber": "0911111111",
+      "address": "ffff",
+      "id": 7
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "fullName": "Le Thi Ngoc Anh",
+      "email": "lethingocanh@gmail.com",
+      "phoneNumber": "090909009988"
+    },
+    {
+      "id": 2,
+      "fullName": "Le Thi Ngoc Anh",
+      "email": "lethingocanh@gmail.com",
+      "phoneNumber": "090909009988"
+    },
+    {
+      "id": 3,
+      "fullName": "Le Thi Ngoc Anh",
+      "email": "lethingocanh@gmail.com",
+      "phoneNumber": "090909009988"
+    }
+  ]
+}
