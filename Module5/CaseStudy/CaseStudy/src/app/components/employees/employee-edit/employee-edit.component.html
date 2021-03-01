@@ -4,61 +4,75 @@
   <div class="form-group">
     <p>Ho Ten</p>
     <input class="form-control" type="text" formControlName="fullName">
-    <p *ngIf="formEditEmployee.controls.fullName.errors?.required && formEditEmployee.controls.fullName.touched" class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.fullName.errors?.required && formEditEmployee.controls.fullName.touched"
+       class="text-danger">Vui long nhap!</p>
   </div>
   <div class="form-group">
     <p>Vi tri</p>
     <input class="form-control" type="text" formControlName="position">
-    <p *ngIf="formEditEmployee.controls.position.errors?.required && formEditEmployee.controls.position.touched" class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.position.errors?.required && formEditEmployee.controls.position.touched"
+       class="text-danger">Vui long nhap!</p>
   </div>
   <div class="form-group">
     <p>Trinh Do</p>
     <input class="form-control" type="text" formControlName="academical">
-    <p *ngIf="formEditEmployee.controls.academical.errors?.required && formEditEmployee.controls.academical.touched" class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.academical.errors?.required && formEditEmployee.controls.academical.touched"
+       class="text-danger">Vui long nhap!</p>
   </div>
   <div class="form-group">
     <p>Bo Phan</p>
     <input class="form-control" type="text" formControlName="department">
-    <p *ngIf="formEditEmployee.controls.department.errors?.required && formEditEmployee.controls.department.touched" class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.department.errors?.required && formEditEmployee.controls.department.touched"
+       class="text-danger">Vui long nhap!</p>
   </div>
   <div class="form-group">
     <p>Ngay Sinh</p>
     <mat-form-field>
-      <input [max]="maxDate" formControlName="dateOfBirth" matInput [matDatepicker]="myDatepicker">
+      <input [max]="maxDate" [min]="minDate" formControlName="dateOfBirth" matInput [matDatepicker]="myDatepicker">
       <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
       <mat-datepicker #myDatepicker></mat-datepicker>
     </mat-form-field>
-    <p *ngIf="formEditEmployee.controls.dateOfBirth.errors?.required && formEditEmployee.controls.dateOfBirth.touched" class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.dateOfBirth.errors?.required && formEditEmployee.controls.dateOfBirth.touched"
+       class="text-danger">Vui long nhap!</p>
 
   </div>
   <div class="form-group">
     <p>CMND</p>
     <input class="form-control" type="text" formControlName="iNumber">
-    <p *ngIf="formEditEmployee.controls.iNumber.errors?.required && formEditEmployee.controls.iNumber.touched" class="text-danger">Vui long nhap!</p>
-    <p *ngIf="formEditEmployee.controls.iNumber.errors?.pattern && formEditEmployee.controls.iNumber.touched" class="text-danger">CMND khong dung dinh dang</p>
+    <p *ngIf="formEditEmployee.controls.iNumber.errors?.required && formEditEmployee.controls.iNumber.touched"
+       class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.iNumber.errors?.pattern && formEditEmployee.controls.iNumber.touched"
+       class="text-danger">CMND khong dung dinh dang</p>
   </div>
   <div class="form-group">
     <p>Luong</p>
     <input class="form-control" type="text" formControlName="salary">
-    <p *ngIf="formEditEmployee.controls.salary.errors?.required && formEditEmployee.controls.salary.touched" class="text-danger">Vui long nhap!</p>
-    <p *ngIf="formEditEmployee.controls.salary.errors?.pattern && formEditEmployee.controls.salary.touched" class="text-danger">Nhap khong dung dinh dang</p>
+    <p *ngIf="formEditEmployee.controls.salary.errors?.required && formEditEmployee.controls.salary.touched"
+       class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.salary.errors?.pattern && formEditEmployee.controls.salary.touched"
+       class="text-danger">Nhap khong dung dinh dang</p>
   </div>
   <div class="form-group">
     <p>Email</p>
     <input class="form-control" type="text" formControlName="email">
-    <p *ngIf="formEditEmployee.controls.email.errors?.required && formEditEmployee.controls.email.touched" class="text-danger">Vui long nhap!</p>
-    <p *ngIf="formEditEmployee.controls.email.errors?.email && formEditEmployee.controls.email.touched" class="text-danger">Email khong dung dinh dang</p>
+    <p *ngIf="formEditEmployee.controls.email.errors?.required && formEditEmployee.controls.email.touched"
+       class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.email.errors?.email && formEditEmployee.controls.email.touched"
+       class="text-danger">Email khong dung dinh dang</p>
   </div>
   <div class="form-group">
     <p>SDT</p>
     <input class="form-control" type="text" formControlName="phoneNumber">
-    <p *ngIf="formEditEmployee.controls.phoneNumber.errors?.required && formEditEmployee.controls.phoneNumber.touched" class="text-danger">Vui long nhap!</p>
-    <p *ngIf="formEditEmployee.controls.phoneNumber.errors?.pattern && formEditEmployee.controls.phoneNumber.touched" class="text-danger">SDT khong dung dinh dang</p>
+    <p *ngIf="formEditEmployee.controls.phoneNumber.errors?.required && formEditEmployee.controls.phoneNumber.touched"
+       class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.phoneNumber.errors?.pattern && formEditEmployee.controls.phoneNumber.touched"
+       class="text-danger">SDT khong dung dinh dang</p>
   </div>
   <div class="form-group">
     <p>Dia Chi</p>
     <input class="form-control" type="text" formControlName="address">
-    <p *ngIf="formEditEmployee.controls.address.errors?.required && formEditEmployee.controls.address.touched" class="text-danger">Vui long nhap!</p>
+    <p *ngIf="formEditEmployee.controls.address.errors?.required && formEditEmployee.controls.address.touched"
+       class="text-danger">Vui long nhap!</p>
   </div>
 </form>
 <div class="row d-flex justify-content-center mt-5">
